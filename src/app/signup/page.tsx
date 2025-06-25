@@ -18,9 +18,11 @@ function SignupPage() {
   const onSignup = async () => {
     try {
       if (buttonDisabled) return;
-      await axios.post("/api/users/signup", user);
-      toast.success("Signed up successfully");
-      router.push("/login");
+      const response = await axios.post("/api/users/signup", user);
+      if (response.status === 200) {
+        toast.success("Signed up successfully");
+        router.push("/login");
+      }
     } catch (error: any) {
       toast.error("Error while signing up");
     }

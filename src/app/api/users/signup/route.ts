@@ -1,6 +1,7 @@
 import { connectDB } from "@/db/db";
 import User from "@/models/user.model";
 import { NextRequest, NextResponse } from "next/server";
+import logger from "@/helpers/logger";
 import bcrypt from "bcryptjs";
 
 connectDB();
@@ -25,6 +26,8 @@ export async function POST(request: NextRequest) {
       password: hashedPassword,
     });
 
+    logger.info(`User signed up: ${savedUser}`);
+
     return NextResponse.json(
       {
         message: "User created successfully",
@@ -34,6 +37,7 @@ export async function POST(request: NextRequest) {
       { status: 200 }
     );
   } catch (error: any) {
+    logger.error(`Error occurred during signup: ${error}`);
     return NextResponse.json({ error: error.messsage }, { status: 500 });
   }
 }

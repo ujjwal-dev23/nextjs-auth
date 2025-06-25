@@ -1,1 +1,13 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-24T07:16:26.874Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:32:23.347Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:32:41.961Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:36:25.753Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User signed up: {\n  username: 'ujjwal',\n  email: 'ujjwal@test.com',\n  password: '$2b$10$rbJGt7NABK0pik/Aptjj6OfoYJSyYIAnr391khnCCf0sDmYKSw5eC',\n  isVerified: false,\n  isAdmin: false,\n  _id: new ObjectId('685c09ba973db210c82fd5a9'),\n  __v: 0\n}","timestamp":"2025-06-25T14:37:46.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:38:02.569Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User logged in : [object Object]","timestamp":"2025-06-25T14:38:02.701Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User logged in : [object Object]","timestamp":"2025-06-25T14:40:07.584Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User logged in : [object Object]","timestamp":"2025-06-25T14:40:18.349Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:41:02.192Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User logged in : [object Response]","timestamp":"2025-06-25T14:41:02.328Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:41:41.594Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User logged in : {\n  _id: new ObjectId('685c09ba973db210c82fd5a9'),\n  username: 'ujjwal',\n  email: 'ujjwal@test.com',\n  password: '$2b$10$rbJGt7NABK0pik/Aptjj6OfoYJSyYIAnr391khnCCf0sDmYKSw5eC',\n  isVerified: false,\n  isAdmin: false,\n  __v: 0\n}","timestamp":"2025-06-25T14:41:41.731Z"}
