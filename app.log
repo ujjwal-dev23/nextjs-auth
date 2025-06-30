@@ -11,3 +11,5 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"User logged in : [object Response]","timestamp":"2025-06-25T14:41:02.328Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-25T14:41:41.594Z"}
 {"level":"\u001b[32minfo\u001b[39m","message":"User logged in : {\n  _id: new ObjectId('685c09ba973db210c82fd5a9'),\n  username: 'ujjwal',\n  email: 'ujjwal@test.com',\n  password: '$2b$10$rbJGt7NABK0pik/Aptjj6OfoYJSyYIAnr391khnCCf0sDmYKSw5eC',\n  isVerified: false,\n  isAdmin: false,\n  __v: 0\n}","timestamp":"2025-06-25T14:41:41.731Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"MongoDB connected: ac-cacwaso-shard-00-00.bfuhrzf.mongodb.net","timestamp":"2025-06-30T06:45:48.278Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User logged in : {\n  _id: new ObjectId('685a51c578fe0031cdee8373'),\n  username: 'test2',\n  email: 'test3',\n  password: '$2b$10$54umlha7bZPGvC9TbhGCku03HKB7lSn1vUVU7HX1G9cs65e7O/0Zi',\n  isVerified: false,\n  isAdmin: false,\n  __v: 0\n}","timestamp":"2025-06-30T06:45:58.308Z"}
